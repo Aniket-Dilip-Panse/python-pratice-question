@@ -17,6 +17,6 @@ print(f"current working Day = {today_date.day}")
 # if we want to print weekday use .weekday() or isoweekday() it will return integer value
 # .weekday monday = 0 and sunday = 6
 # .isoweekday monday = 1 and sunday = 7
-print(f"current working Year = {today_date.weekday()}")
-print(f"current working Year = {today_date.isoweekday()}")
+print(f"current working day = {today_date.weekday()}")
+print(f"current working day = {today_date.isoweekday()}")
 
